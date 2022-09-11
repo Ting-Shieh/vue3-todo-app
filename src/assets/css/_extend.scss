@@ -1,0 +1,24 @@
+@import "./style.scss";
+%scrollArea {
+  &::-webkit-scrollbar {
+    width: var(--up-scrollbar-width);
+    height: var(--up-scrollbar-height);
+    cursor: pointer !important;
+  }
+
+  &::-webkit-scrollbar-corner {
+    background: var(--up-scrollbar-track);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    width: var(--up-scrollbar-width);
+    background: var(--up-scrollbar-thumb);
+    border-radius: 10px;
+    cursor: pointer !important;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--up-scrollbar-track);
+    box-shadow: inset 0 0 4px var(--up-scrollbar-track);
+  }
+}

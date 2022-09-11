@@ -1,0 +1,15 @@
+@import "./extend.scss";
+@import "./mixin.scss";
+
+
+//
+.scrollArea {
+    @extend %scrollArea;
+    overflow: auto;
+  }
+// .scrollArea {
+//     width: 100%;
+//     overflow-x: auto;
+//     overflow-y:hidden;
+//     cursor: pointer;
+// }

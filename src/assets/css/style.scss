@@ -1,0 +1,14 @@
+
+// @import './extend.scss';
+
+// * scrollbar 樣式變數 * /
+:root {
+  --up-scrollbar-width: 10px;
+  --up-scrollbar-height: 8px;
+  --up-scrollbar-track: transparent;
+  --up-scrollbar-thumb: #e0e0e0;
+  --up-scrollbar-thumb-hover: #555555;
+  --up-scrollbar-track-dark: #e0e0e0;
+  --up-scrollbar-thumb-dark: #e0e0e0;
+  --up-scrollbar-thumb-hover-dark: #555555;
+}
